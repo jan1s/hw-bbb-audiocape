@@ -1,8 +1,7 @@
 hw-bbb-audiocape
 ================
 
-This is a simple audio cape
-
+This is a simple audio cape for the Beaglebone Black
 
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
@@ -19,7 +18,6 @@ This is a simple audio cape
 | D1-D4 | Suppressor Diodes | 4 |  | 863-ESD9B3.3ST5G | [Mouser][mouser] |
 | U1 | Stereo CODEC | 1 |  | 595-TLV320C3104IRHBT | [Mouser][mouser] |
 | U2 | LDO 1.8V | 1 |  | 595-TLV70218DBVR | [Mouser][mouser] |
-
 
 
 [reichelt]: http://www.reichelt.de
