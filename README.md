@@ -19,6 +19,7 @@ This is a simple audio cape for the Beaglebone Black
 | U1 | Stereo CODEC | 1 |  | 595-TLV320C3104IRHBT | [Mouser][mouser] |
 | U2 | LDO 1.8V | 1 |  | 595-TLV70218DBVR | [Mouser][mouser] |
 
-
 [reichelt]: http://www.reichelt.de
 [mouser]: http://mouser.com
+
+[itead-pcb]: http://imall.iteadstudio.com/open-pcb/pcb-prototyping.html
