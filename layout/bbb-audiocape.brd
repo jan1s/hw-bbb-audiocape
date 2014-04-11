@@ -8869,6 +8869,19 @@ design rules under a new name.</description>
 <via x="49.8475" y="19.685" extent="1-16" drill="0.5"/>
 <via x="56.515" y="9.2075" extent="1-16" drill="0.5"/>
 <via x="61.9125" y="29.21" extent="1-16" drill="0.5"/>
+<via x="54.2925" y="24.765" extent="1-16" drill="0.5"/>
+<via x="65.405" y="14.2875" extent="1-16" drill="0.5"/>
+<via x="65.405" y="8.5725" extent="1-16" drill="0.5"/>
+<via x="65.405" y="11.43" extent="1-16" drill="0.5"/>
+<via x="62.5475" y="38.4175" extent="1-16" drill="0.5"/>
+<via x="62.5475" y="48.26" extent="1-16" drill="0.5"/>
+<via x="62.5475" y="43.4975" extent="1-16" drill="0.5"/>
+<via x="50.4825" y="24.765" extent="1-16" drill="0.5"/>
+<via x="46.0375" y="24.765" extent="1-16" drill="0.5"/>
+<via x="42.2275" y="20.955" extent="1-16" drill="0.5"/>
+<via x="42.2275" y="16.8275" extent="1-16" drill="0.5"/>
+<via x="42.2275" y="13.0175" extent="1-16" drill="0.5"/>
+<via x="42.2275" y="9.2075" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="8"/>
