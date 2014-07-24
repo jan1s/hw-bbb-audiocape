@@ -1,7 +1,7 @@
 hw-bbb-audiocape
 ================
 
-This is a simple audio cape for the Beaglebone Black
+This project is untested, yet!
 
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
