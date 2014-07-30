@@ -1,7 +1,11 @@
 hw-bbb-audiocape
 ================
 
-This project is untested, yet!
+First of all: This project is a clone of [CircuitCo Audio Cape][circuitco].
+
+It is not commercial in any form, just fun for me to play around.
+If you want and Audio Cape, go and get one of theirs.
+
 
 ## Setup on Arch
 
@@ -75,4 +79,5 @@ Play alternating sine waves on the 2 output channels:
 
 [itead-pcb]: http://imall.iteadstudio.com/open-pcb/pcb-prototyping.html
 
+[circuitco]: http://elinux.org/CircuitCo:Audio_Cape_RevB
 [gettingstarted]: http://elinux.org/BBB_Audio_Cape_RevB_Getting_Started
