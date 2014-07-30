@@ -10,17 +10,21 @@ The setup guide is mainly taken from [eLinux.org - BBB Audio Cape RevB Getting S
 Get the tools if not already installed:
 
 `pacman -S wget`
+
 `pacman -S unzip`
+
 `pacman -S dct-overlay`
 
 Download and unzip the device tree source:
 
 `wget http://elinux.org/images/1/10/BB-BONE-AUDI-02-00A0.zip`
+
 `unzip BB-BONE-AUDI-02-00A0.zip`
 
 Compile the device tree file and move it to /lib/firmware:
 
 `dtc -O dtb -o BB-BONE-AUDI-02-00A0.dtbo -b 0 -@ BB-BONE-AUDI-02-00A0.dts`
+
 `mv BB-BONE-AUDI-02-00A0.dtbo /lib/firmware`
 
 Notice that the dtc-overlay version needs to be installed, since the old dtc is not accepting the @ option.
