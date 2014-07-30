@@ -3,6 +3,43 @@ hw-bbb-audiocape
 
 This project is untested, yet!
 
+## Setup on Arch
+
+The setup guide is mainly taken from [eLinux.org - BBB Audio Cape RevB Getting Started][gettingstarted].
+
+Get the tools if not already installed:
+
+`pacman -S wget`
+`pacman -S unzip`
+`pacman -S dct-overlay`
+
+Download and unzip the device tree source:
+
+`wget http://elinux.org/images/1/10/BB-BONE-AUDI-02-00A0.zip`
+`unzip BB-BONE-AUDI-02-00A0.zip`
+
+Compile the device tree file and move it to /lib/firmware:
+
+`dtc -O dtb -o BB-BONE-AUDI-02-00A0.dtbo -b 0 -@ BB-BONE-AUDI-02-00A0.dts`
+`mv BB-BONE-AUDI-02-00A0.dtbo /lib/firmware`
+
+Notice that the dtc-overlay version needs to be installed, since the old dtc is not accepting the @ option.
+
+The Cape is sharing the audio signal with the onboard HDMI. Therefore HDMI audio needs to be disabled.
+Edit the uEnv.txt file, that your uboot is using:
+
+`optargs=capemgr.disable_partno=BB-BONELT-HDMI`
+
+In order to activate the cape you need to reboot.
+Load the Device Tree file for the cape:
+
+`echo BB-BONE-AUDI-02 > /sys/devices/bone_capemgr*/slots`
+
+To make that persistent just add the following line in /etc/default/capemgr :
+
+`CAPE=BB-BONE-AUDI-02`
+
+
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
 | ---        | ---        | ---      | ---     | ---         | ---      |
@@ -23,3 +60,5 @@ This project is untested, yet!
 [mouser]: http://mouser.com
 
 [itead-pcb]: http://imall.iteadstudio.com/open-pcb/pcb-prototyping.html
+
+[gettingstarted]: http://elinux.org/BBB_Audio_Cape_RevB_Getting_Started
