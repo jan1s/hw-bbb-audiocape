@@ -43,6 +43,16 @@ To make that persistent just add the following line in /etc/default/capemgr :
 
 `CAPE=BB-BONE-AUDI-02`
 
+## Test and play
+
+Play alternating noise on the 2 output channels:
+
+`speaker-test -c 2`
+
+Play alternating sine waves on the 2 output channels:
+
+`speaker-test -c 2 -t sine`
+
 
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
