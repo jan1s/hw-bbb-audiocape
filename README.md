@@ -6,6 +6,17 @@ First of all: This project is a clone of [CircuitCo Audio Cape][circuitco].
 It is not commercial in any form, just fun for me to play around.
 If you want and Audio Cape, go and get one of theirs.
 
+## Hardware
+
+![Top](docu/schematic.png "Top")
+
+Project schematic.
+
+
+![Top](docu/board.png "Top")
+
+Render of the board.
+
 
 ## Setup on Arch
 
@@ -57,15 +68,6 @@ Play alternating sine waves on the 2 output channels:
 
 `speaker-test -c 2 -t sine`
 
-
-![Top](docu/schematic.png "Top")
-
-Project schematic.
-
-
-![Top](docu/board.png "Top")
-
-Render of the board.
 
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
