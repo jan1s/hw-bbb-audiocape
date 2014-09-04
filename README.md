@@ -4,7 +4,7 @@ hw-bbb-audiocape
 First of all: This project is a clone of [CircuitCo Audio Cape][circuitco].
 
 It is not commercial in any form, just fun for me to play around.
-If you want and Audio Cape, go and get one of theirs.
+If you want an Audio Cape, go and get one of theirs.
 
 ## Hardware
 
