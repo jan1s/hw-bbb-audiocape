@@ -7409,9 +7409,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-149.86" y="-58.42" size="2.54" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License
-http://creativecommons.org/licenses/by-sa/3.0
-Design By: Daniel Jackson</text>
+<text x="-149.86" y="-58.42" size="2.54" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License http://creativecommons.org/licenses/by-sa/3.0 Design By: Daniel Jackson, Modified By: jan1s</text>
 </plain>
 <instances>
 <instance part="AGND1" gate="VR1" x="-27.94" y="121.92"/>

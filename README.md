@@ -58,6 +58,15 @@ Play alternating sine waves on the 2 output channels:
 `speaker-test -c 2 -t sine`
 
 
+![Top](docu/schematic.png "Top")
+
+Project schematic.
+
+
+![Top](docu/board.png "Top")
+
+Render of the board.
+
 ## BOM
 | Identifier | Type/Value | Quantity | Comment | Supplier Id | Supplier |
 | ---        | ---        | ---      | ---     | ---         | ---      |
